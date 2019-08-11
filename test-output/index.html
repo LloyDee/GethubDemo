@@ -143,7 +143,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;My testing suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;My test&quot;&gt;
-    &lt;parameter name=&quot;URLHere&quot; value=&quot;https://www.jw.org&quot;/&gt;
+    &lt;parameter name=&quot;myURL&quot; value=&quot;https://www.jw.org&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testrunner.TestRunner&quot;/&gt;
     &lt;/classes&gt;
@@ -189,12 +189,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logInToJW')
 data.setCell(0, 2, 'testrunner.TestRunner')
-data.setCell(0, 3, 285);
+data.setCell(0, 3, 378);
 window.suiteTableData['My_testing_suite']= { tableData: data, tableDiv: 'times-div-My_testing_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 285 ms</span>
+              <span class="suite-total-time">Total running time: 378 ms</span>
               <div id="times-div-My_testing_suite">
               </div> <!-- times-div-My_testing_suite -->
             </div> <!-- times-div -->
@@ -227,7 +227,7 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">logInToJW</span>
-                <span class="method-start">4190 ms</span>
+                <span class="method-start">4636 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

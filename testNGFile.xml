@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="My testing suite" guice-stage="DEVELOPMENT">
 	<test name="My test">
-		<parameter name="URLHere" value="https://www.jw.org" />
+		<parameter name="myURL" value="https://www.jw.org" />
 		<classes>
 			<class name="testrunner.TestRunner" />
 		</classes>

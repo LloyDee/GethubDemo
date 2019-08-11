@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import initializer.Init;
 
 public class TestRunner extends Init {
-	@Parameters("URLHere")
+	@Parameters("myURL")
 	@BeforeClass //(priority = 0)
 	public void openURL(String URL) {
 		gitBase.openBrowser(URL);
